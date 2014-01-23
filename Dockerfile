@@ -16,7 +16,7 @@ RUN cd /root;git clone https://github.com/rbjarnason/KiwiIRC.git
 
 ADD supervisor.conf /etc/supervisor/conf.d/kiwiirc.conf
 
-VOLUME "/etc/kiwiirc/certs"
+VOLUME ["/etc/kiwiirc"]
 
 EXPOSE 7778
 
