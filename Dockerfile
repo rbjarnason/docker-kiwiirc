@@ -21,12 +21,3 @@ VOLUME ["/etc/kiwiirc"]
 EXPOSE 7778
 
 CMD ["/usr/bin/supervisord"]
-
-
-
-
-
-
-
-
--subj '/C=US/ST=Oregon/L=Portland/CN=www.madboa.com'
