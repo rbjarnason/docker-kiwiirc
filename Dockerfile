@@ -2,7 +2,9 @@
 # Version 0.1
 
 FROM yrpri/base
-MAINTAINER Robert Bjarnason <robert@citizens.is>
+MAINTAINER Robert Vidar Bjarnason <robert@citizens.is>
+
+RUN echo 'version 0.1'
 
 ENV DEBIAN_FRONTEND noninteractive
 
