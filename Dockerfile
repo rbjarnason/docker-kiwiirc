@@ -1,7 +1,7 @@
 # kiwiIRC
 
 FROM yrpri/base
-MAINTAINER Robert Vidar Bjarnason <robert@citizens.is>
+MAINTAINER Robert Bjarnason <robert@citizens.is>
 
 ENV DEBIAN_FRONTEND noninteractive
 
