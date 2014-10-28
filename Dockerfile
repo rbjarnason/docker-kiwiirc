@@ -4,7 +4,7 @@
 FROM yrpri/base
 MAINTAINER Robert Vidar Bjarnason <robert@citizens.is>
 
-RUN echo 'version 0.8'
+RUN echo 'version 0.9'
 
 ENV DEBIAN_FRONTEND noninteractive
 
