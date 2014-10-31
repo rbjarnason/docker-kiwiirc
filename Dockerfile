@@ -4,7 +4,7 @@
 FROM yrpri/base
 MAINTAINER Robert Vidar Bjarnason <robert@citizens.is>
 
-RUN echo 'version 0.13'
+RUN echo 'version 0.14'
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -21,6 +21,6 @@ ADD supervisor.conf /etc/supervisor/conf.d/kiwiirc.conf
 
 VOLUME ["/etc/kiwiirc"]
 
-EXPOSE 7778
+EXPOSE 443
 
 CMD ["/usr/bin/supervisord"]
